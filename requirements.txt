@@ -1,0 +1,21 @@
+# Install with:  uv pip install --python .venv/Scripts/python.exe -r requirements.txt
+#
+# numpy and matplotlib are pinned BELOW their latest releases on purpose.
+# Smart App Control is enforcing on this machine and denies loading unsigned
+# native extensions that lack an established reputation, so the newest wheels
+# fail at import with:
+#   ImportError: DLL load failed while importing <mod>: An Application Control
+#   policy has blocked this file.
+# Observed blocked: numpy 2.4.6 / 2.5.3 (numpy/random/_bounded_integers.pyd),
+# matplotlib 3.11.2 (matplotlib/_path.pyd). The pins below load cleanly.
+# Before raising either pin, import the package and confirm it still loads.
+
+kagglehub==1.0.2
+numpy==2.2.6
+pandas==3.0.5
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# notebook execution
+ipykernel==7.3.0
+ipywidgets==8.1.9
