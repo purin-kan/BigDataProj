@@ -1,0 +1,28 @@
+X  (Std, both 2012 and 2013)   3,356
+Y  (ToU, both 2012 and 2013)   835
+X2 (Std, 2013)                 4,387
+Y2 (ToU, 2013)                 1,111
+Usable-month rule (2012)       >= 90% of calendar days usable (>= 44/48 readings); >= 6 such months
+Sensitivity (2012 month)       usable month at >= 50% of days instead: 3,737 Std, 951 ToU with both years
+Short 2013 periods             262 Std and 66 ToU households pass the 2013 rule with a recorded 2013 period under 300 days (shortest 10 days)
+chi-square check               Affluent 22.4% ToU, Comfortable 21.4% ToU, Adversity 16.4% ToU; household-level chi2 = 23.95, df = 2, p = 6.29e-06, Cramer's V = 0.066
+block-level test               109 blocks, mean block dToU share Affluent 21.9%, Comfortable 21.5%, Adversity 16.4%; permutation p = 0.267 (three groups), 0.107 (Adversity vs others)
+ACORN unclassified (excluded)  51
+Q1                             0.056
+MEDIAN                         0.113
+Q3                             0.237
+Load profile: lowest half-hour 04:00-04:30, 0.113 kWh
+Load profile: highest half-hour 19:00-19:30, 0.319 kWh (2.83 x the lowest)
+Load profile: above 0.30 kWh   6 half-hours, 18:00 to 21:00; 2 inside 16:00-19:00
+Load profile: household-days   3,469,352
+Trial days 2013 (05:00 to 05:00) 364 complete: Normal 244, High only 45, Low only 50, High and Low 25; at least one High 70, at least one Low 75
+Household-days on Normal days (ok_2013, usable) 1,289,598 (Std 1,027,751, ToU 261,847); High only 239,150, Low only 263,725, High and Low 131,890
+Household-days on Normal days (all households, usable) 1,293,702 of 1,930,523
+Clock check (response onset, half-hours after schedule stamp) Kaggle stamp as is: High winter +1, High summer -1, Low winter +1, Low summer -1; London start of half-hour: High winter +0, High summer +0, Low winter +0, Low summer +0
+Daily layer: duplicates        0
+Daily layer: first / last day incomplete 100.0% / 98.0% of households
+Daily layer: other incomplete days 30,063; 21,035 have exactly 47 readings, 5,918 have 24 or fewer
+Households stopping before the last date 579
+ACORN pairwise (chi2, df = 1)  Affluent vs Comfortable 0.44; Affluent vs Adversity 22.22; Comfortable vs Adversity 13.68
+ACORN letters: lowest / highest dToU share ACORN-K 13.3% (n = 165), ACORN-J 27.7% (n = 112)
+ACORN test on ok_2013 households Affluent 22.4%, Comfortable 21.4%, Adversity 16.6%; chi2 = 22.26, p = 1.46e-05
